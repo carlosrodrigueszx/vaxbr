@@ -1,0 +1,8 @@
+# FastAPI Project Structure
+https://dev.to/mohammad222pr/structuring-a-fastapi-project-best-practices-53l6
+
+# O que é parquet? e Apache Parquet? O que tem haver com o Pandas e o PyArrow?
+https://www.datacamp.com/pt/tutorial/apache-parquet
+
+# O que é o DeltaLake? Como usá-lo para manipular dados?
+https://www.datacamp.com/pt/tutorial/delta-lake
