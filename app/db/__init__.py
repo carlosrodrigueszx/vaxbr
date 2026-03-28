@@ -1,4 +1,5 @@
 from .utils import (
+    GenID,
     pandas as pd,
     time,
     pyarrow,
@@ -6,4 +7,4 @@ from .utils import (
     DeltaTable
 )
 
-__all__ = ['pd', 'time', 'pyarrow', 'write_deltalake', 'DeltaTable']
+__all__ = ['GenID','pd', 'time', 'pyarrow', 'write_deltalake', 'DeltaTable']
