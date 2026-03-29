@@ -129,6 +129,14 @@ print_version(dt, "após merge")
 print(dt.to_pandas().head(100))
 print_count(dt)
 
+# ── DELETE ───────────────────────────────────────────────────────
+print("\n── DELETE ──────────────────────────────────────────────")
+dt.delete(predicate="vax_id=1")
+dt = read_latest(write_path)
+print_version(dt, "após delete")
+print(dt.to_pandas().head(100))
+print_count(dt)
+
 # ── TIME TRAVEL ───────────────────────────────────────────────────────────────
 print("\n── TIME TRAVEL ─────────────────────────────────────────────────")
 latest_version = read_latest(write_path).version()
@@ -143,6 +151,13 @@ for v in range(latest_version + 1):
 
 # ── HISTÓRICO COMPLETO ────────────────────────────────────────────────────────
 print_full_history(write_path)
+
+# ── COUNT ────────────────────────────────────────────────────────
+print("\n── COUNT ──────────────────────────────────────────────────────")
+# metadata do parquet, sem ler os dados
+registers = dt.to_pyarrow_table(columns=["vax_id"]).num_rows
+print("Número de registros na tabela: ", registers)
+
 
 # ── VACUUM ────────────────────────────────────────────────────────────────────
 print("\n── VACUUM ──────────────────────────────────────────────────────")
