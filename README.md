@@ -1,12 +1,12 @@
-# 🩺 API REST — Sistema de Gestão de Vacinação Municipal
+# 🩺 API REST — Sistema de Gestão de Vacinação
 
-API REST desenvolvida com **FastAPI** para gerenciamento de registros de vacinação municipal, com persistência em **Delta Lake**. O projeto faz parte do Trabalho Prático da disciplina de Desenvolvimento de Software para Persistência (UFC).
+API REST desenvolvida com **FastAPI** para gerenciamento de registros de vacinação municipal, com persistência em **Delta Lake**. O projeto faz parte do Trabalho Prático da disciplina de Desenvolvimento de Software para Persistência (UFC - campus Quixadá).
 
 ---
 
 ## 📋 Descrição
 
-O sistema expõe endpoints para gerenciamento completo de registros vacinais, operando diretamente sobre arquivos Delta Lake sem carregar os dados integralmente na memória. A entidade central é **Vacina**, integrada ao domínio de controle vacinal municipal já modelado na primeira entrega da disciplina.
+O sistema expõe endpoints para gerenciamento completo de registros vacinais, operando diretamente sobre arquivos Delta Lake sem carregar os dados integralmente na memória. A entidade central é **Vacina (vax)**, integrada ao domínio de controle vacinal já modelado na primeira entrega da disciplina.
 
 ---
 
