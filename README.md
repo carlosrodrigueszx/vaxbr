@@ -43,21 +43,41 @@ O sistema expõe endpoints para gerenciamento completo de registros vacinais, op
 ## 🗃️ Estrutura do Projeto
 
 ```
-.
+vaxbr/
 ├── app/
-│   ├── main.py                  # Entrypoint FastAPI
-│   ├── entity/
-│   │   └── vacina.py            # Modelo Pydantic da entidade
-│   ├── db/
-│   │   └── delta_repository.py  # Classe de persistência Delta Lake (CRUD)
-│   └── routers/
-│       ├── vacinas.py           # Endpoints F1, F2, F3, F4
-│       ├── export.py            # Endpoints F5, F6
-│       └── hash_router.py       # Endpoint F7
-├── scripts/
-│   └── seed.py                  # Script de carga inicial (1000+ registros via Faker)
-├── divisao_tarefas.txt          # Distribuição de tarefas da equipe
-└── pyproject.toml               # Dependências do projeto
+│   ├── __init__.py
+│   ├── main.py
+│   ├── dependencies.py
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── users.py
+│   │   └── items.py
+│   ├── internal/
+│   │   ├── __init__.py
+│   │   └── admin.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── security.py
+│   ├── models/
+│   │   ├── __init__.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── vax.py
+│   ├── services/
+│   │   ├── __init__.py
+│   └── db/
+│       ├── __init__.py
+│       ├── utils.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_main.py
+│   ├── test_crud.py
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+└── run.sh
 ```
 
 ---

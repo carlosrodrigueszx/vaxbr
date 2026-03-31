@@ -2,9 +2,11 @@ from .utils import (
     GenID,
     pandas as pd,
     time,
-    pyarrow,
+    pyarrow as pa,
     write_deltalake,
-    DeltaTable
+    DeltaTable,
+    WriterProperties,
+    pdt
 )
 
-__all__ = ['GenID','pd', 'time', 'pyarrow', 'write_deltalake', 'DeltaTable']
+__all__ = ['GenID','pd', 'time', 'pa', 'write_deltalake', 'DeltaTable', 'WriterProperties', 'pdt']
