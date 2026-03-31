@@ -17,12 +17,10 @@ O sistema expõe endpoints para gerenciamento completo de registros vacinais, op
 | Atributo | Tipo | Descrição |
 |---|---|---|
 | `id` | `int` | Identificador único (autoincremento via `.seq`) |
-| `nome` | `str` | Nome da vacina |
-| `fabricante` | `str` | Nome do fabricante |
-| `publico_alvo` | `str` | Público-alvo (ex: crianças, adultos, idosos) |
-| `numero_doses` | `int` | Quantidade de doses necessárias |
-| `validade` | `date` | Data de validade do lote |
-| `doenca` | `str` | Doença que a vacina previne |
+| `name` | `str` | Nome da vacina |
+| `target` | `str` | Vírus da doença (ex: Influenza, Rinovírus) |
+| `illness` | `str` | Doença combatida (ex: COVID-19, HPV) |
+| `quantity` | `int` | Quantidade de doses armazenadas |
 
 ---
 
@@ -93,11 +91,14 @@ vaxbr/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/vacinacao-api.git
-cd vacinacao-api
+git clone https://github.com/carlosrodrigueszx/vaxbr.git
+cd vaxbr
 
 # Instale as dependências
 pip install .
+
+# Com uv
+uv sync
 ```
 
 ### Executando a API
@@ -111,7 +112,7 @@ A documentação interativa estará disponível em `http://localhost:8000/docs`.
 ### Populando o banco com dados iniciais
 
 ```bash
-python scripts/seed.py
+python3 tools/faker_gen.py
 ```
 
 Isso irá gerar **1.000+ registros** realistas usando a biblioteca `Faker` com localização `pt_BR`.
