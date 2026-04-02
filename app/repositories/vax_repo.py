@@ -11,28 +11,14 @@ _id = db.GenID(FILE_SEQ, delta_table_path=WRITE_PATH, id_column="vax_id")
 def _latest() -> db.DeltaTable:
     return db.DeltaTable(WRITE_PATH)
 
-def insert(file: bytes):
-    # 3. Processa o arquivo com Pandas
-    df = db.pd.read_csv(io.BytesIO(file))
-    
-    # Exemplo: Retornar as primeiras linhas ou converter para JSON
-    return {"filename": df.name,"data": df.head().to_dict(orient="records")}
-
-# a fazer
-def csv_insert(csv_f: VaxCreate):
-    try:
-        dt = db.pd.read_csv(csv_f)
-        df = db.pd.DataFrame([
-            {
-                "vax_id": _id.get_next(),
-                **dt.model_dump()
-            }
-        ])
-        db.write_deltalake(WRITE_PATH, df, mode="append")
-    except FileNotFoundError:
-        print(f"Error: the file {csv_f} was not found.")
-        exit()
-
+def insert(data: VaxCreate) -> dict:
+    df = db.pd.DataFrame([
+        {
+            "vax_id": _id.get_next(),
+            **data.model_dump()
+        }
+    ])
+    db.write_deltalake(WRITE_PATH, df, mode="append")
     return df.iloc[0].to_dict()
 
 def get_by_id(vax_id: int):
@@ -151,15 +137,16 @@ def delete(vax_id: int):
     return True
 
 # HISTORY / TIME TRAVEL
-def history() -> list[dict]:
-    return _latest().history()
+# def history() -> list[dict]:
+#     return _latest().history()
 
-def get_version(version: int):
-    dt = db.DeltaTable(WRITE_PATH, version=version)
-    return dt.to_pandas().to_dict(orient="records")
+# def get_version(version: int):
+#     dt = db.DeltaTable(WRITE_PATH, version=version)
+#     return dt.to_pandas().to_dict(orient="records")
 
 def vacuum(dry_run: bool = True, retention_hours: int = 168):
     dt = _latest()
+    db.GenID.reset(_id, 0)
     return dt.vacuum(
         dry_run=dry_run,
         retention_hours=retention_hours,

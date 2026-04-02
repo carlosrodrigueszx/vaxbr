@@ -64,3 +64,9 @@ class GenID:
         self._write_seq_file(self._current_id)
         print(f"[GenID] Gerando ID: {self._current_id}")
         return self._current_id
+    
+    def reset(self, new_id: int = 0):
+        self._current_id = 0
+        self._write_seq_file(self._current_id)
+        print(f"[GenID] Reiniciando ID's a partir de: {self._current_id}")
+        return self._current_id

@@ -19,7 +19,7 @@ with open('vaccines.csv', 'w', newline="") as csv_f:
 
     for _ in range(1000):
         writer.writerow({
-            'name': fake.name_female(),
+            'name': fake.random_choices(manufacturers),
             'target': fake.random_choices(targets),
             'illness': fake.random_choices(illnesses),
             'quantity': fake.random_number(fix_len=True, digits=4),
