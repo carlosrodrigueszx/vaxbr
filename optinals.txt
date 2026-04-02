@@ -1,0 +1,23 @@
+<vax_router>
+
+# @router.get("/")
+# def home():
+#     return {"et-varginha": "Olá, mundo! Busquem conhecimento!"}
+
+# @router.get("/history")
+# def history():
+#     return repo.history()
+
+# @router.get("/version/{version}")
+# def time_travel(version: int):
+#     return repo.get_version(version)
+
+<vax_repo>
+HISTORY / TIME TRAVEL
+def history() -> list[dict]:
+    return _latest().history()
+
+GET VERSION
+def get_version(version: int):
+    dt = db.DeltaTable(WRITE_PATH, version=version)
+    return dt.to_pandas().to_dict(orient="records")

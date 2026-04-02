@@ -1,10 +1,12 @@
 from fastapi import APIRouter, HTTPException, Query
 from app.schemas.vax import VaxCreate, VaxUpdate, VaxOut
 import app.repositories.vax_repo as repo
+from fastapi.responses import StreamingResponse
 
 router = APIRouter(prefix="/vax", tags=["vax"])
 
-# Static routes
+READPATH = "app/tmp/vax"
+# Static
 
 @router.post("/insert", response_model=VaxOut, status_code=201)
 async def create(data: VaxCreate):
@@ -31,25 +33,64 @@ async def all(
         target=target,
     )
 
+@router.get("/export/csv")
+def export_csv(filename: str):
+    print("\nTentando exportar...")
+    generator = repo.parquet_to_csv_stream(READPATH)
+    print("\nTentando streamar...")
+    return StreamingResponse(
+        generator,
+        media_type="text/csv",
+        headers={
+            "Content-Disposition": f"attachment; filename={filename}.csv"
+        }
+    )
+
+@router.get("/export/zip")
+def export_zip(filename: str):
+    print("\nchamou")
+    
+    gen = repo.parquet_to_zip_stream(READPATH) 
+
+    return StreamingResponse(
+        gen,
+        media_type="application/zip",
+        headers={
+            "Content-Disposition": f"attachment; filename={filename}.zip"
+        }
+    )
+
 @router.get("/count")
 async def count():
     return {"count": repo.count()}
 
-
-
-@router.delete("/vacuum")
-async def vacuum(retention_hours: int = Query(168, ge=0)):
+# inspeciona
+@router.get("/vacuum")
+async def vacuum_preview(retention_hours: int = Query(168, ge=0)):
     try:
         files = repo.vacuum(dry_run=True, retention_hours=retention_hours)
-        print("would_delete:", files, "total: ", len(files))
-        
+        return {"would_delete": files, "total": len(files)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# deleta
+@router.delete("/vacuum")
+async def vacuum_run(
+    retention_hours: int = Query(168, ge=0),
+    enforce: bool        = Query(False),   # proteção extra: precisa passar enforce=true
+):
+    if retention_hours == 0 and not enforce:
+        raise HTTPException(
+            status_code=400,
+            detail="retention_hours=0 apaga todo o histórico. Passe enforce=true para confirmar."
+        )
+    try:
         files = repo.vacuum(dry_run=False, retention_hours=retention_hours)
-
         return {"deleted": files, "total": len(files)}
-    except FileNotFoundError:
-        raise HTTPException(status_code=405, detail="No such table")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Dynamic routes
+# Dynamic
 
 @router.get("/{vax_id}", response_model=list[VaxOut])
 async def get(vax_id: int):
@@ -63,8 +104,10 @@ async def get(vax_id: int):
 
 @router.patch("/{vax_id}")
 async def update(vax_id: int, data: VaxUpdate):
+    print("\nchamando update...")
     updated = repo.update(vax_id, data)
-
+    print("\nretornado...")
+    print("\nvalor de update...", updated)
     if not updated:
         raise HTTPException(status_code=400, detail="Nenhum campo para atualizar")
     return {"updated": True}
@@ -78,16 +121,3 @@ async def delete(vax_id: int):
     repo.delete(vax_id)
     return {"deleted": True}
 
-# Optinals
-
-# @router.get("/")
-# def home():
-#     return {"et-varginha": "Olá, mundo! Busquem conhecimento!"}
-
-# @router.get("/history")
-# def history():
-#     return repo.history()
-
-# @router.get("/version/{version}")
-# def time_travel(version: int):
-#     return repo.get_version(version)
