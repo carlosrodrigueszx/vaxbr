@@ -28,7 +28,6 @@ class GenID:
         # Mantém o .seq sincronizado
         self._write_seq_file(last_id)
 
-        print(f"[GenID] Iniciando a partir do ID: {last_id}")
         return last_id
 
     def _get_max_from_delta(self) -> int:

@@ -1,10 +1,11 @@
 # Carlos Daniel
-1.
-    -
-    -
+1. Organização da estrutura do projeto
+    - Divisão em módulos com base em padrões modernos de construção de API's Python
+2. Versionamento com git e GitHub
+3. Desenvolvimento dos endpoints e de suas respectivas funções internas
 
 # Milena
-1.
+1. 
     -
     -
 

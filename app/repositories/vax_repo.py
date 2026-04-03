@@ -2,7 +2,7 @@ import app.db as db
 from app.schemas.vax import VaxCreate, VaxUpdate
 import io
 import zipstream
-import hashlib
+import math
 
 WRITE_PATH = "app/tmp/vax"
 FILE_SEQ   = "app/data/.seq"
@@ -50,7 +50,6 @@ def list_all(
     illness: str | None = None,
     target: str | None = None,
 ):
-
     expr = None
 
     if illness and target:
@@ -62,45 +61,44 @@ def list_all(
 
     dataset = _latest().to_pyarrow_dataset()
 
-    # lê em batches para não carregar tudo de uma vez
-    batches = dataset.to_batches(
-        batch_size=page_size,
-        filter=expr,
-    )
+    offset = (page - 1) * page_size
+    remaining = page_size
 
-    # filtra batches vazios e concatena em uma tabela única
-    batch_list = [b for b in batches if b.num_rows > 0]
+    collected_batches = []
+    skipped = 0
 
-    if not batch_list:
-        return {
-            "data": [],
-            "page": page,
-            "page_size": page_size,
-            "total_records": 0,
-            "total_pages": 0,
-        }
+    for batch in dataset.to_batches(filter=expr):
+        if batch.num_rows == 0:
+            continue
 
-    full_table   = db.pa.Table.from_batches(batch_list)
+        if skipped + batch.num_rows <= offset:
+            skipped += batch.num_rows
+            continue
 
-    total_records = full_table.num_rows
-    total_pages   = max(1, (total_records // page_size))
+        start_in_batch = max(0, offset - skipped)
 
-    if page < 1 or page > total_pages:
-        return {
-            "data": [],
-            "page": page,
-            "page_size": page_size,
-            "total_records": total_records,
-            "total_pages": total_pages,
-        }
+        take = min(batch.num_rows - start_in_batch, remaining)
 
-    # fatiamento real por página
-    start = (page - 1) * page_size
-    # end   = start + page_size
-    page_table = full_table.slice(start, min(page_size, total_records - start))
+        sliced = batch.slice(start_in_batch, take)
+        collected_batches.append(sliced)
+
+        remaining -= take
+        skipped += batch.num_rows
+
+        if remaining <= 0:
+            break
+
+    if collected_batches:
+        page_table = db.pa.Table.from_batches(collected_batches)
+        data = page_table.to_pylist()
+    else:
+        data = []
+
+    total_records = dataset.count_rows(filter=expr)
+    total_pages = max(1, math.ceil(total_records / page_size))
 
     return {
-        "data": page_table.to_pylist(),
+        "data": data,
         "page": page,
         "page_size": page_size,
         "total_records": total_records,
@@ -174,8 +172,6 @@ def parquet_to_csv_stream(file_path):
         first = False
         yield buffer.getvalue()
 
-import zipstream
-
 def parquet_to_zip_stream(file_path):
     z = zipstream.ZipFile(mode='w', compression=zipstream.ZIP_DEFLATED)
 
@@ -193,18 +189,3 @@ def parquet_to_zip_stream(file_path):
     z.write_iter("dados.csv", _encoded_generator())
 
     return z
-
-import hashlib
-
-def stream_with_hash(generator):
-    hasher = hashlib.sha256()
-
-    for chunk in generator:
-        if isinstance(chunk, str):
-            chunk = chunk.encode("utf-8")
-
-        hasher.update(chunk)
-        yield chunk
-
-    # ⚠️ hash só fica pronto no final
-    print("HASH:", hasher.hexdigest())

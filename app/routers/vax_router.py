@@ -6,6 +6,7 @@ from fastapi.responses import StreamingResponse
 router = APIRouter(prefix="/vax", tags=["vax"])
 
 READPATH = "app/tmp/vax"
+
 # Static
 
 @router.post("/insert", response_model=VaxOut, status_code=201)
@@ -35,9 +36,8 @@ async def all(
 
 @router.get("/export/csv")
 def export_csv(filename: str):
-    print("\nTentando exportar...")
     generator = repo.parquet_to_csv_stream(READPATH)
-    print("\nTentando streamar...")
+
     return StreamingResponse(
         generator,
         media_type="text/csv",
@@ -48,7 +48,6 @@ def export_csv(filename: str):
 
 @router.get("/export/zip")
 def export_zip(filename: str):
-    print("\nchamou")
     
     gen = repo.parquet_to_zip_stream(READPATH) 
 
@@ -104,10 +103,8 @@ async def get(vax_id: int):
 
 @router.patch("/{vax_id}")
 async def update(vax_id: int, data: VaxUpdate):
-    print("\nchamando update...")
     updated = repo.update(vax_id, data)
-    print("\nretornado...")
-    print("\nvalor de update...", updated)
+
     if not updated:
         raise HTTPException(status_code=400, detail="Nenhum campo para atualizar")
     return {"updated": True}
