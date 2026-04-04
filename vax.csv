@@ -1,0 +1,1001 @@
+vax_id,name,target,illness,quantity,id_manufac
+24,Influenza,Streptococcus pneumoniae,HPV,4412,15
+44,Rotavírus,Clostridium tetani,Influenza,190,20
+958,Influenza,Influenza A/B,Meningite C,8246,44
+900,Rotavírus,Papilomavírus Humano,Sarampo,4987,49
+136,Rotavírus,Vírus da Febre Amarela,Sarampo,242,19
+394,Febre Amarela,Vírus da Febre Amarela,Influenza,749,40
+100,AstraZeneca,SARS-CoV-2,Influenza,5000,34
+17,Butanvac,Clostridium tetani,Poliomielite,2020,8
+83,Influenza,Influenza A/B,Varicela,2776,43
+60,Influenza,Rinovírus,Tuberculose,8940,33
+158,Febre Amarela,Neisseria meningitidis,Rotavirose,8512,47
+540,Febre Amarela,Poliovírus,Influenza,647,39
+303,Butanvac,Influenza A/B,Meningite C,302,13
+458,CoronaVac,Poliovírus,Tétano,477,24
+372,Febre Amarela,Papilomavírus Humano,Tuberculose,4952,2
+137,Rotavírus,Poliovírus,Meningite C,5996,13
+760,Influenza,Mycobacterium tuberculosis,HPV,8849,16
+567,DTP,Sarampo,Pneumonia,5211,46
+588,AstraZeneca,Mycobacterium tuberculosis,Rotavirose,9938,43
+552,AstraZeneca,Sarampo,Tuberculose,9752,24
+504,BCG,Mycobacterium tuberculosis,Pneumonia,3596,6
+361,AstraZeneca,Sarampo,Influenza,7571,9
+723,Meningocócica C,Streptococcus pneumoniae,Febre Amarela,7766,44
+852,CoronaVac,Papilomavírus Humano,Rotavirose,2348,18
+151,Febre Amarela,SARS-CoV-2,Meningite C,4921,18
+189,Butanvac,Mycobacterium tuberculosis,Hepatite B,1953,38
+684,BCG,Clostridium tetani,Caxumba,7852,7
+482,Tríplice Viral,Rinovírus,Poliomielite,8197,46
+843,Butanvac,Sarampo,HPV,6579,36
+699,Butanvac,Vírus da Hepatite B,Rotavirose,7115,5
+101,Influenza,Rotavírus,Influenza,5563,34
+197,Pneumocócica 10,Clostridium tetani,Influenza,4876,26
+998,HPV Quadrivalente,SARS-CoV-2,Febre Amarela,1408,22
+993,Febre Amarela,Streptococcus pneumoniae,COVID-19,5833,35
+707,CoronaVac,Rotavírus,Tuberculose,6872,30
+201,DTP,Papilomavírus Humano,Varicela,4142,24
+731,BCG,Sarampo,Febre Amarela,4608,43
+533,Hepatite B,Clostridium tetani,Rubéola,7052,22
+28,HPV Quadrivalente,SARS-CoV-2,Hepatite B,3287,31
+570,Influenza,Vírus da Hepatite B,Rubéola,1216,17
+737,AstraZeneca,Influenza A/B,Tétano,6836,1
+404,Hepatite B,Rotavírus,Sarampo,6309,27
+898,HPV Quadrivalente,Vírus da Febre Amarela,Pneumonia,1479,10
+269,Meningocócica C,Mycobacterium tuberculosis,Sarampo,8122,2
+931,Varicela,Streptococcus pneumoniae,Poliomielite,6087,35
+65,DTP,Vírus da Febre Amarela,Pneumonia,8297,30
+110,Pfizer-BioNTech,Clostridium tetani,COVID-19,4041,36
+748,Meningocócica C,Sarampo,Febre Amarela,76,18
+763,Poliomielite,Sarampo,Tétano,1352,16
+470,Poliomielite,Neisseria meningitidis,Rotavirose,7847,12
+344,Butanvac,Streptococcus pneumoniae,HPV,5142,33
+955,Tríplice Viral,Sarampo,Meningite C,5506,40
+857,Butanvac,Vírus da Febre Amarela,Varicela,1971,8
+356,Tríplice Viral,Poliovírus,COVID-19,6259,35
+203,Janssen,Mycobacterium tuberculosis,Rotavirose,4495,48
+105,Tríplice Viral,Neisseria meningitidis,Varicela,6779,39
+348,Pneumocócica 10,Vírus da Hepatite B,Rotavirose,1843,48
+592,Febre Amarela,SARS-CoV-2,Sarampo,3580,21
+873,BCG,Clostridium tetani,Influenza,7109,30
+938,Pneumocócica 10,Streptococcus pneumoniae,HPV,3739,49
+40,Pfizer-BioNTech,Neisseria meningitidis,Febre Amarela,1796,39
+432,Hepatite B,SARS-CoV-2,Varicela,9094,29
+895,Hepatite B,Neisseria meningitidis,Tuberculose,3653,20
+317,Meningocócica C,Sarampo,COVID-19,8365,36
+575,Febre Amarela,Mycobacterium tuberculosis,Rubéola,9983,45
+402,AstraZeneca,SARS-CoV-2,Tétano,5589,10
+761,Tríplice Viral,Mycobacterium tuberculosis,Hepatite B,4860,25
+171,Janssen,SARS-CoV-2,Tétano,3093,17
+789,Rotavírus,SARS-CoV-2,Sarampo,3917,16
+69,Rotavírus,Sarampo,Febre Amarela,3510,33
+630,CoronaVac,Mycobacterium tuberculosis,Febre Amarela,269,50
+997,Febre Amarela,Streptococcus pneumoniae,Influenza,5916,39
+912,HPV Quadrivalente,Neisseria meningitidis,Rubéola,8378,3
+45,Tríplice Viral,Vírus da Hepatite B,COVID-19,4748,45
+253,Hepatite B,Rotavírus,Tétano,3199,25
+996,Poliomielite,Mycobacterium tuberculosis,Hepatite B,8171,35
+268,CoronaVac,Rinovírus,Influenza,5523,19
+627,Influenza,Neisseria meningitidis,COVID-19,5928,8
+791,Influenza,Vírus da Hepatite B,Rubéola,4405,18
+732,Pfizer-BioNTech,Vírus da Hepatite B,Pneumonia,219,30
+77,Rotavírus,Vírus da Febre Amarela,Sarampo,1630,35
+338,Febre Amarela,Clostridium tetani,Tuberculose,8424,2
+969,Janssen,Rotavírus,COVID-19,1475,22
+109,HPV Quadrivalente,Papilomavírus Humano,HPV,991,36
+411,Pneumocócica 10,Rinovírus,Tétano,8032,46
+514,BCG,Influenza A/B,COVID-19,4659,30
+291,AstraZeneca,SARS-CoV-2,Varicela,7622,30
+577,Rotavírus,Rotavírus,Varicela,7128,38
+726,Febre Amarela,Poliovírus,COVID-19,560,5
+31,Tríplice Viral,SARS-CoV-2,Varicela,4223,6
+844,Pfizer-BioNTech,Sarampo,Poliomielite,1332,16
+798,BCG,Vírus da Febre Amarela,Rubéola,796,37
+94,Varicela,Streptococcus pneumoniae,Hepatite B,1401,6
+892,Butanvac,Papilomavírus Humano,Febre Amarela,7009,46
+936,Influenza,Papilomavírus Humano,Rubéola,2366,39
+311,Poliomielite,Streptococcus pneumoniae,Influenza,1161,43
+959,DTP,Clostridium tetani,Hepatite B,3572,3
+806,Hepatite B,Poliovírus,Rubéola,7588,22
+794,Poliomielite,Mycobacterium tuberculosis,Influenza,6986,46
+87,BCG,Clostridium tetani,Febre Amarela,1021,25
+397,Influenza,Neisseria meningitidis,HPV,7391,24
+113,BCG,Rotavírus,Meningite C,6198,5
+75,Influenza,Poliovírus,Poliomielite,3464,4
+797,Butanvac,Clostridium tetani,Influenza,2824,30
+943,AstraZeneca,Sarampo,COVID-19,9751,44
+944,Varicela,Sarampo,Febre Amarela,1873,46
+229,Butanvac,Vírus da Febre Amarela,Hepatite B,7502,5
+307,Rotavírus,Rinovírus,Rubéola,8785,16
+745,HPV Quadrivalente,Sarampo,Influenza,7774,26
+566,Varicela,Rotavírus,COVID-19,6072,18
+670,Butanvac,Neisseria meningitidis,Rotavirose,2701,41
+1,Pfizer-BioNTech,Vírus da Hepatite B,Febre Amarela,6289,39
+108,Influenza,Vírus da Febre Amarela,Poliomielite,9008,9
+617,Febre Amarela,Influenza A/B,Caxumba,8925,2
+721,Varicela,Clostridium tetani,Sarampo,6759,4
+543,DTP,Sarampo,Rubéola,7511,41
+162,Butanvac,Vírus da Febre Amarela,Rubéola,932,10
+596,CoronaVac,Streptococcus pneumoniae,Tuberculose,974,20
+562,BCG,Influenza A/B,Tuberculose,2982,32
+143,Influenza,Mycobacterium tuberculosis,Febre Amarela,6981,43
+419,CoronaVac,Papilomavírus Humano,Varicela,3324,7
+324,BCG,Rinovírus,Meningite C,1501,12
+872,AstraZeneca,Sarampo,Poliomielite,137,9
+507,Butanvac,SARS-CoV-2,Sarampo,6574,37
+772,Pneumocócica 10,Rotavírus,Pneumonia,971,21
+403,Febre Amarela,Mycobacterium tuberculosis,Poliomielite,2400,39
+343,AstraZeneca,Mycobacterium tuberculosis,Sarampo,1518,33
+78,Influenza,Rotavírus,Meningite C,595,37
+966,Meningocócica C,SARS-CoV-2,Influenza,9659,42
+352,Poliomielite,Streptococcus pneumoniae,COVID-19,7229,49
+86,DTP,Streptococcus pneumoniae,Meningite C,8054,11
+41,Rotavírus,Poliovírus,COVID-19,1224,49
+422,Febre Amarela,Vírus da Hepatite B,Tétano,2700,46
+957,CoronaVac,Vírus da Hepatite B,Varicela,161,8
+194,BCG,Poliovírus,Tétano,2575,30
+150,HPV Quadrivalente,Poliovírus,Hepatite B,4356,33
+58,BCG,Influenza A/B,Meningite C,889,19
+972,DTP,Streptococcus pneumoniae,Tétano,8671,7
+442,DTP,Vírus da Hepatite B,Influenza,456,2
+355,CoronaVac,Papilomavírus Humano,Caxumba,2734,47
+983,Butanvac,Sarampo,Meningite C,1266,45
+323,Pfizer-BioNTech,Sarampo,Tuberculose,2262,8
+333,Hepatite B,Poliovírus,Sarampo,1010,23
+417,Pfizer-BioNTech,Rinovírus,Sarampo,9752,36
+655,Hepatite B,Papilomavírus Humano,HPV,58,33
+289,Influenza,Papilomavírus Humano,Caxumba,8568,27
+152,Varicela,Rinovírus,Hepatite B,8187,18
+299,Rotavírus,Vírus da Hepatite B,Rotavirose,40,43
+559,BCG,Rinovírus,Pneumonia,7504,12
+532,Poliomielite,Rotavírus,Rotavirose,6288,27
+673,Hepatite B,Influenza A/B,Influenza,5894,21
+222,Poliomielite,Clostridium tetani,Caxumba,2047,37
+390,Hepatite B,Vírus da Febre Amarela,Febre Amarela,7144,34
+20,CoronaVac,SARS-CoV-2,Pneumonia,7620,7
+903,Pfizer-BioNTech,Sarampo,Varicela,639,22
+537,DTP,Rotavírus,Caxumba,9923,24
+509,Influenza,Papilomavírus Humano,Caxumba,3687,34
+792,Butanvac,Clostridium tetani,Rotavirose,2358,36
+547,Poliomielite,Rinovírus,Febre Amarela,7586,42
+454,Febre Amarela,Vírus da Febre Amarela,Caxumba,541,28
+71,Rotavírus,Influenza A/B,Rotavirose,8328,5
+697,Poliomielite,Papilomavírus Humano,Tétano,8427,24
+968,Hepatite B,Clostridium tetani,Poliomielite,4030,25
+175,Influenza,Poliovírus,Febre Amarela,7891,6
+771,Influenza,Streptococcus pneumoniae,COVID-19,9359,11
+880,HPV Quadrivalente,Influenza A/B,Caxumba,6492,38
+371,Hepatite B,Clostridium tetani,Caxumba,7208,24
+796,Pfizer-BioNTech,Papilomavírus Humano,Caxumba,8306,36
+354,BCG,Papilomavírus Humano,Rotavirose,2076,44
+715,Pneumocócica 10,Mycobacterium tuberculosis,Rotavirose,8548,35
+146,Poliomielite,Vírus da Hepatite B,COVID-19,7827,38
+585,Pfizer-BioNTech,Streptococcus pneumoniae,Caxumba,5412,2
+718,Varicela,Streptococcus pneumoniae,Caxumba,3339,10
+120,BCG,Papilomavírus Humano,Febre Amarela,8755,21
+264,BCG,SARS-CoV-2,Caxumba,7663,20
+457,Poliomielite,Papilomavírus Humano,Febre Amarela,321,21
+613,AstraZeneca,Sarampo,Sarampo,9196,7
+728,Meningocócica C,Streptococcus pneumoniae,Caxumba,8587,32
+962,DTP,Mycobacterium tuberculosis,HPV,3306,11
+989,Butanvac,Sarampo,Rubéola,5152,6
+609,BCG,Streptococcus pneumoniae,Rotavirose,7563,38
+524,Butanvac,Mycobacterium tuberculosis,Tuberculose,4399,28
+573,Pneumocócica 10,Sarampo,Pneumonia,5187,31
+675,Poliomielite,Streptococcus pneumoniae,Hepatite B,3639,44
+14,Pfizer-BioNTech,SARS-CoV-2,Rotavirose,8326,28
+619,Pneumocócica 10,Rotavírus,Rotavirose,1833,39
+581,Pfizer-BioNTech,Rotavírus,Influenza,5637,20
+39,Pfizer-BioNTech,Mycobacterium tuberculosis,Tétano,2430,42
+820,Febre Amarela,Sarampo,COVID-19,5073,21
+553,Butanvac,Streptococcus pneumoniae,Pneumonia,3110,42
+826,Influenza,Sarampo,Sarampo,664,36
+347,Poliomielite,Mycobacterium tuberculosis,HPV,2805,40
+79,BCG,Influenza A/B,Sarampo,1141,37
+521,Hepatite B,Neisseria meningitidis,Varicela,5152,30
+636,Tríplice Viral,Rotavírus,Meningite C,2223,48
+15,Tríplice Viral,Rinovírus,Varicela,3531,42
+488,BCG,Neisseria meningitidis,COVID-19,5321,13
+990,DTP,Streptococcus pneumoniae,Caxumba,2051,24
+102,CoronaVac,Neisseria meningitidis,Meningite C,9186,45
+284,Hepatite B,Clostridium tetani,Rotavirose,6128,6
+928,CoronaVac,Poliovírus,Hepatite B,3743,15
+779,Pfizer-BioNTech,Rotavírus,Caxumba,24,37
+824,Pneumocócica 10,Vírus da Hepatite B,Febre Amarela,5212,5
+860,CoronaVac,Sarampo,Influenza,5709,27
+687,Rotavírus,Rotavírus,COVID-19,6005,17
+170,Janssen,Vírus da Febre Amarela,Sarampo,1476,1
+956,Hepatite B,Neisseria meningitidis,Pneumonia,4984,33
+230,AstraZeneca,Clostridium tetani,Meningite C,8071,24
+848,Febre Amarela,Vírus da Febre Amarela,Poliomielite,9654,38
+391,Influenza,Rotavírus,Febre Amarela,4194,26
+250,Hepatite B,Vírus da Febre Amarela,Caxumba,7199,17
+770,AstraZeneca,Clostridium tetani,Febre Amarela,1774,27
+632,HPV Quadrivalente,Rinovírus,Sarampo,4914,16
+240,Febre Amarela,Vírus da Febre Amarela,COVID-19,4326,10
+847,BCG,Influenza A/B,HPV,6779,3
+933,Butanvac,Influenza A/B,Sarampo,6200,9
+469,Meningocócica C,Mycobacterium tuberculosis,HPV,9436,29
+304,Influenza,Vírus da Hepatite B,Tétano,7258,35
+901,Tríplice Viral,Mycobacterium tuberculosis,Poliomielite,3966,11
+790,Influenza,Sarampo,Sarampo,4569,15
+693,Poliomielite,Neisseria meningitidis,Poliomielite,8289,34
+610,Febre Amarela,Clostridium tetani,Hepatite B,9507,30
+215,Butanvac,Vírus da Hepatite B,Influenza,8685,15
+643,Pfizer-BioNTech,Neisseria meningitidis,Influenza,5125,17
+274,Pneumocócica 10,Poliovírus,Rotavirose,3755,33
+849,Pfizer-BioNTech,Vírus da Febre Amarela,Sarampo,7278,37
+924,CoronaVac,Vírus da Hepatite B,Rotavirose,1123,38
+231,Janssen,Vírus da Febre Amarela,Rubéola,3079,16
+648,Hepatite B,Neisseria meningitidis,HPV,1312,3
+498,Influenza,Streptococcus pneumoniae,Tétano,6896,49
+460,HPV Quadrivalente,Clostridium tetani,Tuberculose,8582,46
+174,Meningocócica C,Rotavírus,Tuberculose,5297,35
+451,Hepatite B,Clostridium tetani,Influenza,8991,24
+406,Pfizer-BioNTech,Streptococcus pneumoniae,Hepatite B,3830,7
+474,AstraZeneca,Vírus da Febre Amarela,Rotavirose,322,39
+464,Influenza,Sarampo,Rubéola,3371,30
+173,HPV Quadrivalente,Papilomavírus Humano,Tuberculose,1694,5
+586,Poliomielite,Vírus da Febre Amarela,Varicela,8069,49
+199,HPV Quadrivalente,Mycobacterium tuberculosis,COVID-19,5373,9
+38,Tríplice Viral,Influenza A/B,Tétano,8120,31
+365,Hepatite B,Vírus da Febre Amarela,COVID-19,7312,10
+743,CoronaVac,Vírus da Hepatite B,Meningite C,3211,19
+449,Janssen,Neisseria meningitidis,Hepatite B,1553,19
+214,Influenza,Poliovírus,Pneumonia,1324,40
+991,HPV Quadrivalente,Rotavírus,Varicela,6724,46
+856,Butanvac,Papilomavírus Humano,Rotavirose,8162,31
+378,BCG,Streptococcus pneumoniae,Hepatite B,1015,29
+279,Febre Amarela,Streptococcus pneumoniae,Tuberculose,1060,40
+297,DTP,Rotavírus,Poliomielite,6212,32
+838,Poliomielite,Papilomavírus Humano,HPV,3375,42
+254,Febre Amarela,Poliovírus,Tuberculose,1420,28
+727,Pneumocócica 10,Rinovírus,Tuberculose,8924,32
+438,HPV Quadrivalente,Vírus da Hepatite B,Rubéola,7571,47
+667,AstraZeneca,Influenza A/B,Poliomielite,7891,41
+461,Pneumocócica 10,Vírus da Febre Amarela,Rotavirose,1297,17
+916,DTP,Rotavírus,Varicela,7238,5
+729,DTP,Neisseria meningitidis,Rotavirose,9376,22
+657,Febre Amarela,Mycobacterium tuberculosis,Varicela,5496,29
+863,Hepatite B,Rinovírus,Rotavirose,9824,38
+285,Influenza,Vírus da Febre Amarela,Tétano,4403,17
+363,HPV Quadrivalente,Mycobacterium tuberculosis,Rotavirose,3828,25
+330,Janssen,Vírus da Febre Amarela,Rubéola,1941,14
+709,Tríplice Viral,Sarampo,Poliomielite,4515,11
+156,HPV Quadrivalente,Poliovírus,Varicela,3283,32
+180,Pfizer-BioNTech,Sarampo,Caxumba,2280,24
+747,Rotavírus,Rinovírus,COVID-19,5640,14
+187,Hepatite B,Neisseria meningitidis,COVID-19,2854,3
+1000,Influenza,Influenza A/B,Rubéola,7555,23
+295,Butanvac,Neisseria meningitidis,Tuberculose,8214,47
+452,DTP,SARS-CoV-2,Rotavirose,8792,15
+455,Hepatite B,Poliovírus,Rubéola,1905,28
+427,Meningocócica C,Vírus da Febre Amarela,HPV,4239,5
+947,Varicela,Vírus da Febre Amarela,Varicela,3346,28
+398,Varicela,Clostridium tetani,Febre Amarela,7870,46
+241,Pfizer-BioNTech,Neisseria meningitidis,COVID-19,3560,39
+639,DTP,Vírus da Hepatite B,Influenza,9806,18
+839,Influenza,Rinovírus,Febre Amarela,300,6
+508,HPV Quadrivalente,Vírus da Febre Amarela,Rotavirose,2415,47
+907,Influenza,Rotavírus,Hepatite B,4283,49
+64,HPV Quadrivalente,Influenza A/B,Rotavirose,9325,23
+871,Hepatite B,Rotavírus,Poliomielite,6055,50
+103,Janssen,Vírus da Hepatite B,Tuberculose,6809,34
+867,Rotavírus,Rotavírus,Hepatite B,6556,33
+651,AstraZeneca,Clostridium tetani,Influenza,4754,34
+489,Febre Amarela,Vírus da Febre Amarela,Varicela,5939,5
+434,Tríplice Viral,Rotavírus,Caxumba,4139,32
+63,Janssen,Vírus da Hepatite B,Tétano,779,6
+319,Butanvac,Clostridium tetani,Pneumonia,877,18
+91,Influenza,Rotavírus,Febre Amarela,1198,30
+195,AstraZeneca,Rotavírus,Poliomielite,5117,45
+439,Hepatite B,Rinovírus,Varicela,2305,44
+876,Tríplice Viral,Clostridium tetani,Febre Amarela,4761,14
+47,Pfizer-BioNTech,Rotavírus,Tétano,6885,22
+862,Janssen,Influenza A/B,Caxumba,2705,6
+902,Varicela,Poliovírus,Sarampo,6532,10
+328,BCG,SARS-CoV-2,Rotavirose,2481,39
+19,Varicela,Streptococcus pneumoniae,Varicela,3918,4
+435,Butanvac,Rotavírus,Varicela,1138,45
+412,Rotavírus,Rotavírus,HPV,1787,9
+125,BCG,Streptococcus pneumoniae,Rotavirose,4723,45
+664,Pfizer-BioNTech,Influenza A/B,Tétano,6842,7
+579,Meningocócica C,Mycobacterium tuberculosis,Rubéola,8460,12
+373,AstraZeneca,Vírus da Febre Amarela,Meningite C,7300,41
+701,Janssen,Influenza A/B,Sarampo,6524,20
+539,BCG,Influenza A/B,Caxumba,22,38
+267,CoronaVac,Papilomavírus Humano,Poliomielite,824,5
+429,Tríplice Viral,Poliovírus,Varicela,4685,8
+147,Tríplice Viral,Clostridium tetani,Caxumba,8808,31
+133,Febre Amarela,Vírus da Hepatite B,Varicela,5992,45
+167,Meningocócica C,Clostridium tetani,Tuberculose,5037,32
+88,Varicela,Clostridium tetani,Rotavirose,2390,28
+310,Rotavírus,Sarampo,Sarampo,1487,20
+216,Meningocócica C,Streptococcus pneumoniae,Rotavirose,3071,23
+623,Febre Amarela,Neisseria meningitidis,Sarampo,1767,10
+209,CoronaVac,Poliovírus,HPV,3912,30
+446,Meningocócica C,Neisseria meningitidis,Tétano,8492,28
+653,Febre Amarela,Streptococcus pneumoniae,Meningite C,8774,3
+399,Meningocócica C,Clostridium tetani,Varicela,6770,44
+979,Febre Amarela,Neisseria meningitidis,Poliomielite,5115,15
+850,Febre Amarela,Rotavírus,Sarampo,9057,1
+135,Febre Amarela,Rotavírus,Tétano,4607,8
+329,DTP,Vírus da Febre Amarela,Varicela,9085,8
+910,Janssen,Neisseria meningitidis,Poliomielite,4725,22
+426,Butanvac,Mycobacterium tuberculosis,Caxumba,8706,24
+557,Pfizer-BioNTech,Vírus da Hepatite B,Hepatite B,3077,26
+367,Pfizer-BioNTech,Streptococcus pneumoniae,Varicela,1980,16
+803,BCG,Clostridium tetani,Hepatite B,2920,17
+500,AstraZeneca,Mycobacterium tuberculosis,Rotavirose,4653,49
+620,HPV Quadrivalente,Vírus da Hepatite B,COVID-19,4854,35
+982,Varicela,Vírus da Febre Amarela,Febre Amarela,9167,37
+658,Febre Amarela,Vírus da Febre Amarela,COVID-19,4886,25
+631,Butanvac,Rotavírus,Sarampo,6974,45
+213,Butanvac,Streptococcus pneumoniae,Hepatite B,788,25
+674,HPV Quadrivalente,Neisseria meningitidis,Pneumonia,609,23
+177,Rotavírus,Rotavírus,Influenza,5034,30
+431,Butanvac,Papilomavírus Humano,Pneumonia,9639,7
+829,Meningocócica C,Neisseria meningitidis,Febre Amarela,680,9
+441,Pfizer-BioNTech,Rotavírus,Sarampo,7449,11
+937,Butanvac,Clostridium tetani,Tuberculose,7886,25
+870,AstraZeneca,Vírus da Febre Amarela,COVID-19,8783,40
+321,Varicela,Vírus da Hepatite B,Influenza,5823,19
+529,Meningocócica C,Neisseria meningitidis,Varicela,4217,26
+462,HPV Quadrivalente,Papilomavírus Humano,Rotavirose,82,28
+666,HPV Quadrivalente,Sarampo,Caxumba,8140,11
+582,AstraZeneca,Vírus da Febre Amarela,COVID-19,9200,6
+256,CoronaVac,Rotavírus,Hepatite B,6452,30
+370,Febre Amarela,Mycobacterium tuberculosis,COVID-19,7951,38
+864,Poliomielite,Vírus da Febre Amarela,Febre Amarela,1436,49
+584,AstraZeneca,Sarampo,Meningite C,793,6
+463,DTP,Clostridium tetani,Meningite C,1742,4
+436,Hepatite B,Mycobacterium tuberculosis,Febre Amarela,481,32
+807,HPV Quadrivalente,Sarampo,COVID-19,647,4
+935,Febre Amarela,Vírus da Hepatite B,Hepatite B,3970,28
+424,Pfizer-BioNTech,Clostridium tetani,HPV,8227,43
+232,Pneumocócica 10,Neisseria meningitidis,Influenza,7235,50
+27,Rotavírus,Sarampo,Tuberculose,2182,17
+992,Rotavírus,Clostridium tetani,Caxumba,2630,1
+896,Varicela,Sarampo,Sarampo,3383,9
+379,Varicela,Vírus da Hepatite B,Tétano,1174,40
+971,Rotavírus,Neisseria meningitidis,Caxumba,3800,45
+11,Meningocócica C,Poliovírus,Caxumba,3404,18
+35,Meningocócica C,Rinovírus,COVID-19,4325,25
+882,Pfizer-BioNTech,Poliovírus,Sarampo,3777,50
+350,Pfizer-BioNTech,Mycobacterium tuberculosis,Tuberculose,7522,26
+327,CoronaVac,Influenza A/B,Meningite C,6463,15
+459,Janssen,Streptococcus pneumoniae,Meningite C,5193,29
+899,Pneumocócica 10,Rinovírus,Febre Amarela,9576,18
+153,Influenza,Streptococcus pneumoniae,Tétano,3833,50
+369,Poliomielite,Papilomavírus Humano,COVID-19,2086,36
+414,Hepatite B,Poliovírus,Tuberculose,8002,25
+590,Febre Amarela,Vírus da Febre Amarela,Pneumonia,1148,13
+306,Janssen,Rinovírus,Influenza,3774,15
+485,Varicela,Influenza A/B,Febre Amarela,3383,2
+894,Janssen,SARS-CoV-2,HPV,7412,27
+804,HPV Quadrivalente,Clostridium tetani,Meningite C,8757,7
+7,DTP,Vírus da Febre Amarela,Tuberculose,4611,20
+572,Butanvac,Poliovírus,Pneumonia,1054,6
+277,Pfizer-BioNTech,Rinovírus,Sarampo,5527,8
+119,Pneumocócica 10,Vírus da Febre Amarela,Caxumba,2173,24
+219,DTP,SARS-CoV-2,Meningite C,5726,43
+318,Butanvac,Sarampo,Sarampo,7914,45
+184,CoronaVac,Vírus da Febre Amarela,COVID-19,8822,23
+114,Tríplice Viral,Rinovírus,Meningite C,1628,47
+517,Pfizer-BioNTech,Neisseria meningitidis,Varicela,872,43
+456,BCG,Vírus da Febre Amarela,Varicela,1986,15
+883,Poliomielite,SARS-CoV-2,Rotavirose,6350,26
+271,Tríplice Viral,Sarampo,Tuberculose,2861,47
+676,Hepatite B,Neisseria meningitidis,Varicela,7776,48
+104,HPV Quadrivalente,Rinovírus,Rubéola,8914,24
+186,Poliomielite,Vírus da Febre Amarela,Varicela,6095,30
+822,Febre Amarela,Vírus da Hepatite B,Pneumonia,7087,37
+495,Tríplice Viral,Rinovírus,Caxumba,9874,15
+89,BCG,Sarampo,Varicela,6514,40
+332,AstraZeneca,Neisseria meningitidis,HPV,4088,13
+32,Butanvac,Streptococcus pneumoniae,Caxumba,9671,38
+415,Poliomielite,Neisseria meningitidis,HPV,8800,36
+501,Rotavírus,SARS-CoV-2,Tétano,9911,13
+834,HPV Quadrivalente,Influenza A/B,Meningite C,801,36
+527,Varicela,Rotavírus,Caxumba,5321,3
+244,CoronaVac,Rinovírus,Tétano,9241,46
+346,Febre Amarela,Mycobacterium tuberculosis,HPV,5863,18
+93,DTP,Poliovírus,Sarampo,3822,44
+487,Hepatite B,Vírus da Febre Amarela,Varicela,8569,50
+246,Hepatite B,Influenza A/B,Meningite C,7701,26
+640,Febre Amarela,Influenza A/B,Rubéola,8399,41
+211,Pneumocócica 10,Poliovírus,Caxumba,7054,12
+145,Varicela,Vírus da Hepatite B,Meningite C,2582,17
+733,Pneumocócica 10,Sarampo,Rotavirose,8666,31
+851,Influenza,Rotavírus,COVID-19,9094,29
+375,DTP,Papilomavírus Humano,Rubéola,5855,1
+986,Meningocócica C,Sarampo,Influenza,1091,19
+503,AstraZeneca,Vírus da Hepatite B,Varicela,2974,38
+783,Butanvac,Neisseria meningitidis,Influenza,428,44
+377,Meningocócica C,Papilomavírus Humano,COVID-19,2451,4
+396,Tríplice Viral,Vírus da Febre Amarela,Rotavirose,2667,37
+948,Pfizer-BioNTech,Vírus da Hepatite B,Pneumonia,4999,42
+885,BCG,Rotavírus,Tuberculose,2497,14
+984,Influenza,Vírus da Hepatite B,Pneumonia,7306,16
+196,Rotavírus,Sarampo,Influenza,2818,36
+556,CoronaVac,Papilomavírus Humano,Tétano,7400,31
+939,DTP,Rinovírus,Poliomielite,7813,7
+506,Meningocócica C,Rotavírus,Influenza,549,43
+593,Poliomielite,Vírus da Hepatite B,Meningite C,2175,16
+345,CoronaVac,Rotavírus,Caxumba,7317,48
+833,Influenza,SARS-CoV-2,Sarampo,1312,19
+663,Poliomielite,Poliovírus,Febre Amarela,8710,45
+447,Meningocócica C,SARS-CoV-2,Caxumba,1168,23
+139,Meningocócica C,Rinovírus,Caxumba,9994,11
+545,Tríplice Viral,Neisseria meningitidis,Tétano,2219,5
+954,DTP,SARS-CoV-2,Pneumonia,2349,24
+815,Butanvac,Poliovírus,Caxumba,6619,16
+202,AstraZeneca,Neisseria meningitidis,Rotavirose,1328,39
+724,Meningocócica C,Mycobacterium tuberculosis,Rubéola,5405,21
+217,AstraZeneca,Influenza A/B,HPV,5421,39
+428,BCG,Sarampo,Pneumonia,9418,3
+980,Hepatite B,Vírus da Hepatite B,Febre Amarela,8074,3
+668,Varicela,Neisseria meningitidis,Rubéola,304,28
+908,AstraZeneca,Vírus da Febre Amarela,Varicela,5550,47
+383,CoronaVac,Rinovírus,Rotavirose,4838,29
+409,Pfizer-BioNTech,Vírus da Hepatite B,Varicela,8122,9
+769,BCG,Rinovírus,Febre Amarela,1778,4
+181,Pneumocócica 10,SARS-CoV-2,Caxumba,846,39
+416,DTP,Poliovírus,COVID-19,5621,37
+511,Febre Amarela,Mycobacterium tuberculosis,Tuberculose,2678,9
+221,Varicela,Streptococcus pneumoniae,HPV,644,41
+294,Pfizer-BioNTech,Vírus da Febre Amarela,COVID-19,4989,49
+223,Pfizer-BioNTech,Poliovírus,Tuberculose,7969,37
+278,DTP,Influenza A/B,Poliomielite,6281,1
+465,Febre Amarela,Sarampo,Rotavirose,7431,8
+749,Butanvac,Rinovírus,HPV,5632,45
+142,AstraZeneca,Neisseria meningitidis,Caxumba,4451,8
+551,Febre Amarela,Mycobacterium tuberculosis,Meningite C,9577,13
+401,CoronaVac,Mycobacterium tuberculosis,Poliomielite,2201,26
+362,Influenza,Clostridium tetani,Tuberculose,5279,34
+126,Pneumocócica 10,Clostridium tetani,Tuberculose,8417,41
+784,Febre Amarela,Vírus da Febre Amarela,Tuberculose,6658,23
+336,Butanvac,Influenza A/B,Sarampo,8611,31
+410,Varicela,Clostridium tetani,Rubéola,716,20
+897,Tríplice Viral,Streptococcus pneumoniae,Poliomielite,1792,41
+548,Butanvac,Rinovírus,Influenza,8448,9
+513,Rotavírus,Vírus da Febre Amarela,Pneumonia,6393,40
+59,Butanvac,Rinovírus,Varicela,7425,13
+56,Janssen,Rinovírus,Caxumba,7693,36
+975,Pfizer-BioNTech,Papilomavírus Humano,Febre Amarela,3602,15
+793,Janssen,Mycobacterium tuberculosis,Tuberculose,524,44
+486,Poliomielite,Vírus da Hepatite B,Pneumonia,9439,8
+374,Meningocócica C,Vírus da Febre Amarela,Tuberculose,6654,30
+510,Meningocócica C,Vírus da Febre Amarela,Caxumba,7023,31
+953,BCG,Papilomavírus Humano,Varicela,6381,46
+98,CoronaVac,Rotavírus,Rotavirose,7152,41
+12,AstraZeneca,Streptococcus pneumoniae,Varicela,4915,25
+228,Poliomielite,Vírus da Hepatite B,Tuberculose,949,26
+72,HPV Quadrivalente,SARS-CoV-2,COVID-19,8789,13
+765,Influenza,Streptococcus pneumoniae,Caxumba,9882,43
+813,DTP,Papilomavírus Humano,Tétano,7347,38
+626,Poliomielite,Papilomavírus Humano,COVID-19,9105,27
+107,DTP,Influenza A/B,Sarampo,442,17
+659,Meningocócica C,Sarampo,Pneumonia,6908,19
+188,AstraZeneca,Neisseria meningitidis,Tuberculose,778,28
+164,CoronaVac,Vírus da Febre Amarela,Sarampo,695,14
+922,Hepatite B,Clostridium tetani,Tétano,3806,41
+33,BCG,Rinovírus,Pneumonia,9493,31
+148,CoronaVac,Rinovírus,Febre Amarela,6857,20
+970,Janssen,Clostridium tetani,Rubéola,2634,18
+615,AstraZeneca,Poliovírus,Varicela,2463,19
+652,CoronaVac,Neisseria meningitidis,HPV,4013,2
+519,Varicela,Influenza A/B,Rotavirose,3861,39
+841,Hepatite B,SARS-CoV-2,Rubéola,1959,47
+624,DTP,Vírus da Hepatite B,Poliomielite,9835,17
+923,Rotavírus,Streptococcus pneumoniae,Tétano,1257,47
+825,Poliomielite,Mycobacterium tuberculosis,Meningite C,2373,35
+780,Febre Amarela,Vírus da Febre Amarela,Meningite C,1400,43
+785,Poliomielite,Clostridium tetani,Tuberculose,6799,45
+301,Hepatite B,Vírus da Hepatite B,Pneumonia,3271,41
+9,AstraZeneca,Influenza A/B,Hepatite B,4790,13
+423,CoronaVac,Rotavírus,Rotavirose,3291,23
+774,Meningocócica C,SARS-CoV-2,Febre Amarela,3104,24
+123,AstraZeneca,Influenza A/B,Tétano,8728,4
+714,Pneumocócica 10,Vírus da Febre Amarela,Rotavirose,2293,29
+480,Janssen,SARS-CoV-2,Rubéola,5410,38
+618,Janssen,Papilomavírus Humano,Pneumonia,5348,3
+595,Influenza,Rotavírus,Febre Amarela,9703,44
+453,Janssen,Papilomavírus Humano,Tétano,2573,8
+921,Butanvac,Vírus da Febre Amarela,Tétano,2644,24
+247,HPV Quadrivalente,Vírus da Febre Amarela,HPV,4467,15
+281,Tríplice Viral,Sarampo,Tétano,7332,38
+756,Meningocócica C,Streptococcus pneumoniae,Meningite C,215,32
+82,Poliomielite,Vírus da Febre Amarela,Meningite C,5982,7
+25,HPV Quadrivalente,Mycobacterium tuberculosis,Febre Amarela,848,35
+810,Rotavírus,Poliovírus,Poliomielite,1320,23
+179,Influenza,Clostridium tetani,Meningite C,1657,39
+193,Janssen,Vírus da Febre Amarela,Caxumba,4733,9
+555,Rotavírus,Papilomavírus Humano,Rotavirose,721,44
+911,Janssen,Vírus da Hepatite B,Pneumonia,8113,1
+808,Tríplice Viral,Neisseria meningitidis,Rubéola,5587,7
+408,Influenza,Papilomavírus Humano,Febre Amarela,6602,31
+654,Pfizer-BioNTech,Vírus da Febre Amarela,Varicela,3446,34
+906,HPV Quadrivalente,Mycobacterium tuberculosis,Caxumba,9757,10
+680,Tríplice Viral,Streptococcus pneumoniae,Pneumonia,9329,14
+233,Hepatite B,Sarampo,COVID-19,1549,20
+877,Hepatite B,Papilomavírus Humano,Rotavirose,5436,24
+782,Janssen,Vírus da Febre Amarela,Tuberculose,5631,7
+236,Poliomielite,Vírus da Hepatite B,Sarampo,7362,25
+988,Butanvac,Sarampo,Hepatite B,4988,43
+166,Febre Amarela,Vírus da Hepatite B,Hepatite B,3827,9
+226,HPV Quadrivalente,Poliovírus,Meningite C,7961,35
+999,Pneumocócica 10,Rinovírus,Tétano,8553,25
+407,AstraZeneca,SARS-CoV-2,Poliomielite,7292,50
+704,Janssen,Poliovírus,Caxumba,8242,28
+96,Butanvac,Rotavírus,Poliomielite,7681,47
+314,BCG,Mycobacterium tuberculosis,Febre Amarela,1419,46
+496,Tríplice Viral,Poliovírus,Rubéola,8804,16
+571,CoronaVac,Neisseria meningitidis,Sarampo,7672,14
+400,Influenza,Clostridium tetani,COVID-19,6674,9
+886,CoronaVac,Streptococcus pneumoniae,Meningite C,808,30
+602,BCG,Sarampo,HPV,8404,3
+598,Influenza,Streptococcus pneumoniae,Varicela,6180,39
+647,Febre Amarela,Vírus da Febre Amarela,Influenza,4869,33
+612,Janssen,Vírus da Febre Amarela,Hepatite B,3597,20
+832,Febre Amarela,Sarampo,Sarampo,563,47
+207,Varicela,Rotavírus,Poliomielite,7108,8
+884,Pfizer-BioNTech,Mycobacterium tuberculosis,Tuberculose,5629,43
+106,HPV Quadrivalente,Vírus da Hepatite B,Meningite C,1284,39
+879,Pfizer-BioNTech,Vírus da Febre Amarela,Tuberculose,5767,45
+499,HPV Quadrivalente,Mycobacterium tuberculosis,Varicela,2427,41
+70,BCG,Rinovírus,HPV,9507,21
+633,Janssen,Poliovírus,COVID-19,1546,41
+138,Butanvac,Influenza A/B,Tuberculose,2584,6
+95,Rotavírus,Influenza A/B,Febre Amarela,2087,32
+744,Febre Amarela,Rinovírus,Tétano,8034,31
+395,DTP,SARS-CoV-2,Tétano,4688,45
+809,CoronaVac,Vírus da Febre Amarela,COVID-19,6545,7
+49,CoronaVac,Mycobacterium tuberculosis,Sarampo,4510,31
+266,HPV Quadrivalente,SARS-CoV-2,Rotavirose,3678,40
+445,HPV Quadrivalente,Rinovírus,Sarampo,6201,25
+353,Influenza,Influenza A/B,Rotavirose,775,14
+603,BCG,Rotavírus,Pneumonia,6872,48
+261,AstraZeneca,Rinovírus,Hepatite B,158,31
+13,Influenza,Neisseria meningitidis,Meningite C,1854,38
+546,Pneumocócica 10,Streptococcus pneumoniae,Varicela,9500,12
+868,AstraZeneca,Neisseria meningitidis,Tuberculose,9340,9
+34,Janssen,Vírus da Febre Amarela,Tuberculose,7671,13
+234,Rotavírus,Clostridium tetani,Rubéola,8891,19
+357,Varicela,Papilomavírus Humano,Varicela,6782,7
+646,Poliomielite,Papilomavírus Humano,Rotavirose,177,28
+448,Hepatite B,Influenza A/B,Varicela,8026,23
+638,HPV Quadrivalente,Influenza A/B,Tétano,8060,47
+535,Rotavírus,Rotavírus,Febre Amarela,4634,50
+358,Pneumocócica 10,Sarampo,Febre Amarela,6034,8
+46,Febre Amarela,Poliovírus,Meningite C,7406,17
+518,Janssen,Streptococcus pneumoniae,Rotavirose,4668,29
+420,Poliomielite,Neisseria meningitidis,Tétano,2307,20
+781,HPV Quadrivalente,Vírus da Hepatite B,HPV,498,37
+115,BCG,Neisseria meningitidis,Poliomielite,6261,18
+331,Butanvac,Clostridium tetani,Pneumonia,7811,7
+131,Rotavírus,Influenza A/B,Poliomielite,566,13
+544,BCG,Rinovírus,Tuberculose,202,41
+678,Hepatite B,Rotavírus,Influenza,7571,30
+200,Febre Amarela,Influenza A/B,Rubéola,9367,40
+702,AstraZeneca,Vírus da Hepatite B,Tétano,6921,32
+530,Janssen,Vírus da Febre Amarela,Caxumba,975,48
+736,Janssen,SARS-CoV-2,Meningite C,756,30
+292,Pfizer-BioNTech,Poliovírus,Hepatite B,8648,16
+716,Pneumocócica 10,Streptococcus pneumoniae,Meningite C,9551,4
+43,HPV Quadrivalente,Sarampo,Poliomielite,4421,18
+494,Tríplice Viral,Sarampo,Varicela,9720,32
+696,Pneumocócica 10,Streptococcus pneumoniae,Tétano,4003,47
+360,Butanvac,Mycobacterium tuberculosis,HPV,5531,28
+622,Influenza,Neisseria meningitidis,Sarampo,4666,21
+5,Tríplice Viral,Neisseria meningitidis,Rotavirose,1819,29
+185,Febre Amarela,SARS-CoV-2,Hepatite B,8220,17
+720,Hepatite B,Papilomavírus Humano,Tétano,2371,41
+483,HPV Quadrivalente,Influenza A/B,Febre Amarela,6412,7
+920,Varicela,Streptococcus pneumoniae,Pneumonia,9393,40
+637,DTP,Poliovírus,HPV,9019,1
+751,Varicela,Vírus da Febre Amarela,HPV,4624,48
+564,CoronaVac,SARS-CoV-2,Sarampo,3370,37
+963,DTP,Mycobacterium tuberculosis,COVID-19,7306,21
+830,Varicela,SARS-CoV-2,Meningite C,1271,9
+157,CoronaVac,Rinovírus,Hepatite B,4146,42
+117,Febre Amarela,SARS-CoV-2,Rotavirose,2066,48
+679,Varicela,Streptococcus pneumoniae,COVID-19,6813,20
+616,Tríplice Viral,Vírus da Hepatite B,Sarampo,9612,17
+491,BCG,Streptococcus pneumoniae,COVID-19,7436,32
+853,Rotavírus,SARS-CoV-2,Influenza,8973,22
+183,CoronaVac,Streptococcus pneumoniae,Influenza,3021,46
+389,Rotavírus,Influenza A/B,Febre Amarela,9689,40
+305,BCG,SARS-CoV-2,Rubéola,9806,45
+92,Hepatite B,Vírus da Febre Amarela,HPV,3846,25
+342,Poliomielite,Mycobacterium tuberculosis,Poliomielite,4088,41
+976,Butanvac,Rotavírus,Hepatite B,6255,30
+961,Meningocócica C,Mycobacterium tuberculosis,Influenza,2634,14
+259,DTP,Mycobacterium tuberculosis,Influenza,3822,43
+212,Pneumocócica 10,Poliovírus,Poliomielite,1351,46
+225,Janssen,Neisseria meningitidis,Poliomielite,3826,23
+182,AstraZeneca,Mycobacterium tuberculosis,Hepatite B,8647,3
+204,BCG,Influenza A/B,Influenza,4337,11
+144,Pneumocócica 10,Papilomavírus Humano,Sarampo,741,43
+611,Hepatite B,Poliovírus,Poliomielite,1776,7
+484,Influenza,Papilomavírus Humano,Caxumba,1772,22
+74,Rotavírus,Clostridium tetani,HPV,3685,35
+165,HPV Quadrivalente,Papilomavírus Humano,Tétano,8425,19
+53,Tríplice Viral,Rotavírus,Tétano,5282,29
+293,CoronaVac,Vírus da Febre Amarela,Hepatite B,8873,18
+287,Varicela,Rinovírus,Rotavirose,9656,31
+522,AstraZeneca,Clostridium tetani,Poliomielite,4875,26
+712,Butanvac,Rotavírus,Rotavirose,6952,48
+561,Rotavírus,Papilomavírus Humano,COVID-19,4040,8
+478,Meningocócica C,Vírus da Hepatite B,Tétano,7872,25
+208,Meningocócica C,Poliovírus,Pneumonia,7288,25
+68,Tríplice Viral,Vírus da Febre Amarela,Febre Amarela,1827,23
+831,Meningocócica C,Clostridium tetani,COVID-19,7956,3
+917,Meningocócica C,Rinovírus,Pneumonia,2703,35
+384,Pfizer-BioNTech,Clostridium tetani,Pneumonia,5827,13
+946,Varicela,Papilomavírus Humano,Rotavirose,2862,40
+198,Meningocócica C,Streptococcus pneumoniae,Sarampo,2766,20
+828,HPV Quadrivalente,Mycobacterium tuberculosis,Varicela,640,4
+861,Hepatite B,Rotavírus,Tuberculose,4664,24
+206,Febre Amarela,Sarampo,Varicela,3075,29
+300,Rotavírus,Sarampo,Hepatite B,2293,25
+601,Rotavírus,Vírus da Hepatite B,Rubéola,4481,15
+97,Butanvac,Vírus da Hepatite B,Hepatite B,3663,43
+656,CoronaVac,Sarampo,Rotavirose,2193,8
+237,Rotavírus,Sarampo,Tuberculose,787,47
+160,Pfizer-BioNTech,Poliovírus,HPV,3907,30
+66,Varicela,Rotavírus,Rubéola,3736,35
+37,Butanvac,Streptococcus pneumoniae,Febre Amarela,5230,25
+387,Tríplice Viral,Rinovírus,Rotavirose,1065,42
+951,Varicela,Clostridium tetani,Tuberculose,1139,35
+76,Hepatite B,Influenza A/B,Rubéola,8813,6
+121,HPV Quadrivalente,Streptococcus pneumoniae,Tuberculose,9725,27
+560,HPV Quadrivalente,Papilomavírus Humano,Caxumba,1320,10
+607,Poliomielite,Vírus da Febre Amarela,Rotavirose,5637,49
+62,Poliomielite,Sarampo,COVID-19,7651,36
+665,Influenza,Mycobacterium tuberculosis,COVID-19,8123,12
+36,Janssen,Mycobacterium tuberculosis,Influenza,3187,3
+129,Influenza,Influenza A/B,HPV,7707,4
+542,Poliomielite,Papilomavírus Humano,Rubéola,4563,50
+418,Pfizer-BioNTech,SARS-CoV-2,Sarampo,2959,31
+337,Butanvac,Influenza A/B,Hepatite B,7643,4
+904,Meningocócica C,Mycobacterium tuberculosis,HPV,7947,18
+155,Hepatite B,Vírus da Hepatite B,COVID-19,8520,28
+776,AstraZeneca,Neisseria meningitidis,HPV,7431,7
+835,Hepatite B,Vírus da Hepatite B,Tuberculose,6726,44
+819,BCG,Clostridium tetani,Meningite C,1458,15
+890,Febre Amarela,Sarampo,HPV,3032,21
+10,CoronaVac,Clostridium tetani,Sarampo,4277,24
+875,DTP,Streptococcus pneumoniae,Meningite C,9206,30
+846,Febre Amarela,Clostridium tetani,Hepatite B,69,10
+887,Poliomielite,SARS-CoV-2,Rotavirose,5002,41
+706,DTP,Clostridium tetani,Tuberculose,1832,29
+30,Pneumocócica 10,Neisseria meningitidis,Caxumba,5378,9
+450,AstraZeneca,Rinovírus,Hepatite B,4281,4
+625,Varicela,Papilomavírus Humano,Tétano,3372,45
+754,Rotavírus,Vírus da Hepatite B,Febre Amarela,2244,38
+248,BCG,Vírus da Febre Amarela,Meningite C,9109,49
+977,Varicela,Neisseria meningitidis,Tétano,2529,27
+161,AstraZeneca,Vírus da Hepatite B,Rubéola,5637,41
+512,Influenza,Poliovírus,Rotavirose,2629,23
+224,HPV Quadrivalente,Papilomavírus Humano,Meningite C,1991,29
+569,AstraZeneca,Poliovírus,Poliomielite,3001,6
+949,HPV Quadrivalente,Sarampo,COVID-19,8765,37
+364,Tríplice Viral,Sarampo,Hepatite B,3711,36
+286,Hepatite B,Papilomavírus Humano,Influenza,399,49
+889,CoronaVac,Clostridium tetani,Influenza,8125,39
+6,Varicela,Vírus da Febre Amarela,Rubéola,8004,40
+492,Influenza,Neisseria meningitidis,Hepatite B,290,33
+788,Pfizer-BioNTech,SARS-CoV-2,Rubéola,6605,45
+767,Rotavírus,SARS-CoV-2,Rotavirose,1083,40
+220,Janssen,Papilomavírus Humano,Influenza,696,22
+661,Influenza,Influenza A/B,Influenza,791,43
+994,AstraZeneca,Mycobacterium tuberculosis,COVID-19,2934,39
+869,Influenza,Influenza A/B,Sarampo,3869,15
+671,Rotavírus,Rinovírus,Tuberculose,396,21
+641,DTP,Vírus da Hepatite B,Rotavirose,5913,46
+382,Janssen,Sarampo,HPV,7144,25
+580,Pneumocócica 10,SARS-CoV-2,Caxumba,1615,5
+471,Hepatite B,Papilomavírus Humano,Rubéola,6702,10
+124,HPV Quadrivalente,Rotavírus,COVID-19,924,12
+127,Hepatite B,Papilomavírus Humano,Varicela,1489,24
+493,AstraZeneca,Neisseria meningitidis,Influenza,3171,31
+574,Rotavírus,Rinovírus,Rotavirose,1639,40
+689,Janssen,Papilomavírus Humano,Pneumonia,6060,17
+597,Hepatite B,Clostridium tetani,Pneumonia,2433,23
+800,Febre Amarela,Rinovírus,Influenza,4369,36
+302,Meningocócica C,Influenza A/B,Caxumba,7992,34
+118,Hepatite B,Influenza A/B,Varicela,5912,2
+349,Hepatite B,Poliovírus,Influenza,5269,11
+711,Varicela,SARS-CoV-2,Febre Amarela,7750,20
+905,Febre Amarela,Papilomavírus Humano,Febre Amarela,5526,22
+823,Meningocócica C,SARS-CoV-2,Tétano,6568,36
+163,AstraZeneca,SARS-CoV-2,HPV,7023,47
+881,Janssen,Streptococcus pneumoniae,Febre Amarela,2511,22
+891,DTP,Poliovírus,Caxumba,3537,45
+505,Poliomielite,Vírus da Hepatite B,HPV,2814,28
+932,CoronaVac,Sarampo,Caxumba,9254,11
+227,Meningocócica C,SARS-CoV-2,COVID-19,1512,41
+351,Tríplice Viral,Clostridium tetani,Caxumba,936,47
+132,AstraZeneca,Sarampo,COVID-19,3771,33
+591,Butanvac,Sarampo,Influenza,5437,5
+634,Pneumocócica 10,Papilomavírus Humano,Rubéola,6017,40
+249,Meningocócica C,Mycobacterium tuberculosis,Rotavirose,1921,1
+685,Influenza,Influenza A/B,HPV,8771,32
+50,Tríplice Viral,Sarampo,HPV,9811,30
+433,Varicela,Vírus da Febre Amarela,Influenza,8588,44
+909,Varicela,Vírus da Febre Amarela,Febre Amarela,7851,14
+205,Varicela,Vírus da Febre Amarela,Sarampo,2742,6
+61,DTP,Streptococcus pneumoniae,Varicela,2409,45
+995,Meningocócica C,Mycobacterium tuberculosis,COVID-19,9333,3
+523,Poliomielite,Vírus da Hepatite B,Caxumba,3135,6
+802,Influenza,Streptococcus pneumoniae,Tétano,2380,41
+526,Butanvac,Influenza A/B,Febre Amarela,6558,13
+466,Varicela,Mycobacterium tuberculosis,Rotavirose,3008,24
+283,AstraZeneca,Mycobacterium tuberculosis,Rubéola,9836,50
+705,CoronaVac,Neisseria meningitidis,Influenza,4591,24
+773,AstraZeneca,Vírus da Hepatite B,Febre Amarela,4399,23
+502,Pfizer-BioNTech,Influenza A/B,COVID-19,7901,32
+84,Poliomielite,Rinovírus,Poliomielite,165,37
+90,Janssen,SARS-CoV-2,COVID-19,9887,30
+473,Influenza,Streptococcus pneumoniae,COVID-19,9321,6
+710,Rotavírus,Neisseria meningitidis,Sarampo,5264,29
+837,Pneumocócica 10,Streptococcus pneumoniae,Febre Amarela,2549,36
+606,Febre Amarela,Vírus da Hepatite B,Meningite C,5250,48
+725,HPV Quadrivalente,Clostridium tetani,Sarampo,8385,44
+827,Poliomielite,Streptococcus pneumoniae,Hepatite B,7044,29
+549,DTP,SARS-CoV-2,HPV,4131,30
+965,Janssen,Clostridium tetani,Meningite C,7639,33
+690,HPV Quadrivalente,Vírus da Hepatite B,Meningite C,8350,1
+605,Tríplice Viral,Clostridium tetani,HPV,506,12
+210,BCG,Clostridium tetani,Hepatite B,4628,2
+703,AstraZeneca,Rinovírus,Tuberculose,1111,37
+818,Hepatite B,Vírus da Febre Amarela,Tétano,7905,3
+270,Butanvac,Neisseria meningitidis,Tuberculose,3033,8
+52,Poliomielite,Vírus da Febre Amarela,Rotavirose,7452,17
+309,HPV Quadrivalente,Poliovírus,Poliomielite,1594,11
+981,Pneumocócica 10,Vírus da Febre Amarela,Rotavirose,2640,40
+845,Hepatite B,Neisseria meningitidis,Varicela,2156,44
+265,Poliomielite,Clostridium tetani,Influenza,7283,10
+140,CoronaVac,SARS-CoV-2,Caxumba,1106,9
+339,Hepatite B,Papilomavírus Humano,Caxumba,7202,29
+128,AstraZeneca,Rotavírus,Rotavirose,6480,27
+967,Pneumocócica 10,Influenza A/B,Rotavirose,7069,36
+840,HPV Quadrivalente,Vírus da Febre Amarela,HPV,6543,15
+26,Tríplice Viral,Vírus da Febre Amarela,Hepatite B,6656,21
+985,AstraZeneca,Streptococcus pneumoniae,Poliomielite,5166,29
+273,BCG,Neisseria meningitidis,Febre Amarela,6424,8
+385,DTP,Vírus da Febre Amarela,Hepatite B,93,11
+600,Febre Amarela,Streptococcus pneumoniae,Rubéola,2608,41
+531,DTP,Sarampo,Rubéola,7892,36
+239,Meningocócica C,Papilomavírus Humano,Sarampo,3132,27
+628,Meningocócica C,Rinovírus,Rubéola,6206,12
+878,CoronaVac,Rotavírus,Hepatite B,3377,28
+191,DTP,Vírus da Febre Amarela,Febre Amarela,1313,46
+73,Febre Amarela,Vírus da Hepatite B,Varicela,3440,38
+122,CoronaVac,Rinovírus,Meningite C,790,43
+497,Rotavírus,Clostridium tetani,HPV,7005,1
+413,BCG,Clostridium tetani,Poliomielite,5521,1
+752,Varicela,Rinovírus,Poliomielite,1836,23
+57,Pneumocócica 10,Poliovírus,Influenza,1064,12
+750,Butanvac,Streptococcus pneumoniae,Hepatite B,8843,19
+392,Pfizer-BioNTech,Clostridium tetani,Tétano,5527,11
+288,Meningocócica C,SARS-CoV-2,Varicela,9579,40
+23,AstraZeneca,Clostridium tetani,Meningite C,4356,24
+599,HPV Quadrivalente,Mycobacterium tuberculosis,Pneumonia,8540,38
+974,Janssen,Mycobacterium tuberculosis,Poliomielite,4019,44
+811,HPV Quadrivalente,Neisseria meningitidis,HPV,3953,36
+366,CoronaVac,Vírus da Febre Amarela,Rotavirose,7197,11
+541,Poliomielite,Mycobacterium tuberculosis,Poliomielite,6815,4
+550,Tríplice Viral,Papilomavírus Humano,Influenza,5814,41
+941,Hepatite B,Streptococcus pneumoniae,Febre Amarela,5333,30
+421,BCG,Mycobacterium tuberculosis,Poliomielite,4095,47
+925,Influenza,Vírus da Febre Amarela,Febre Amarela,4117,47
+753,Rotavírus,Sarampo,Sarampo,2258,17
+854,Influenza,Clostridium tetani,Sarampo,1428,48
+3,HPV Quadrivalente,Neisseria meningitidis,Influenza,8167,9
+476,Tríplice Viral,Sarampo,Varicela,6362,5
+952,BCG,Clostridium tetani,Influenza,8094,5
+960,AstraZeneca,Poliovírus,Tétano,8705,44
+583,CoronaVac,Rinovírus,Sarampo,2596,27
+644,BCG,Influenza A/B,Rubéola,567,18
+694,Poliomielite,Mycobacterium tuberculosis,Sarampo,9158,33
+805,Hepatite B,Vírus da Febre Amarela,Sarampo,7819,1
+242,HPV Quadrivalente,Mycobacterium tuberculosis,Pneumonia,5685,40
+621,AstraZeneca,Streptococcus pneumoniae,Febre Amarela,789,49
+817,Poliomielite,Rotavírus,COVID-19,4897,36
+276,Janssen,Influenza A/B,Sarampo,46,2
+812,CoronaVac,Sarampo,Caxumba,9773,26
+558,Poliomielite,Vírus da Febre Amarela,HPV,464,11
+669,Rotavírus,Rotavírus,COVID-19,9247,38
+942,HPV Quadrivalente,Poliovírus,Rotavirose,5995,7
+930,Febre Amarela,Papilomavírus Humano,Influenza,3081,39
+54,Janssen,SARS-CoV-2,Varicela,2688,27
+280,Tríplice Viral,Papilomavírus Humano,Rubéola,7436,14
+660,Janssen,Papilomavírus Humano,Hepatite B,7053,27
+777,Hepatite B,Vírus da Febre Amarela,Poliomielite,3187,9
+238,DTP,Rotavírus,Pneumonia,9578,23
+341,HPV Quadrivalente,Mycobacterium tuberculosis,Rubéola,8915,24
+554,Janssen,Papilomavírus Humano,Varicela,3752,7
+722,Influenza,Rinovírus,Febre Amarela,1632,8
+440,Janssen,Poliovírus,Meningite C,1846,4
+859,Pfizer-BioNTech,Vírus da Hepatite B,Influenza,3972,32
+169,HPV Quadrivalente,Vírus da Hepatite B,Rotavirose,5004,44
+235,Rotavírus,Clostridium tetani,Meningite C,6576,2
+741,Butanvac,SARS-CoV-2,Rubéola,6921,7
+8,Influenza,Neisseria meningitidis,Febre Amarela,9704,42
+801,HPV Quadrivalente,SARS-CoV-2,Influenza,6977,7
+326,CoronaVac,Rinovírus,Tuberculose,9204,16
+587,CoronaVac,Streptococcus pneumoniae,HPV,7435,36
+172,Febre Amarela,Influenza A/B,Sarampo,7324,2
+866,Poliomielite,SARS-CoV-2,COVID-19,54,16
+787,HPV Quadrivalente,Sarampo,Caxumba,5870,30
+111,CoronaVac,Vírus da Febre Amarela,Meningite C,9984,33
+565,BCG,Clostridium tetani,Rubéola,1137,18
+380,Varicela,Mycobacterium tuberculosis,Influenza,5180,14
+388,Varicela,Vírus da Hepatite B,Hepatite B,4345,32
+243,Hepatite B,Streptococcus pneumoniae,Varicela,1403,31
+766,Rotavírus,Clostridium tetani,Poliomielite,2304,2
+608,Varicela,Mycobacterium tuberculosis,Influenza,7957,47
+759,Hepatite B,Neisseria meningitidis,Hepatite B,2277,26
+430,Pfizer-BioNTech,Mycobacterium tuberculosis,Poliomielite,4821,17
+538,CoronaVac,Rinovírus,Meningite C,2712,21
+425,BCG,Rotavírus,Caxumba,6155,27
+528,AstraZeneca,Poliovírus,Influenza,5585,28
+735,Varicela,Streptococcus pneumoniae,Rubéola,3518,19
+604,Influenza,Poliovírus,Rotavirose,4374,36
+978,AstraZeneca,Vírus da Febre Amarela,Pneumonia,6493,24
+258,Tríplice Viral,Influenza A/B,Tétano,7190,9
+468,Rotavírus,Clostridium tetani,COVID-19,8295,38
+315,Influenza,Poliovírus,Pneumonia,5665,20
+477,Poliomielite,Streptococcus pneumoniae,Varicela,7059,50
+316,AstraZeneca,Clostridium tetani,HPV,9950,20
+795,AstraZeneca,Sarampo,Hepatite B,8115,44
+178,Rotavírus,Rinovírus,Caxumba,5792,47
+576,Meningocócica C,Sarampo,Pneumonia,2792,39
+335,Febre Amarela,Papilomavírus Humano,Rubéola,7786,2
+915,CoronaVac,Clostridium tetani,Tétano,9543,7
+755,Hepatite B,Rotavírus,Tuberculose,8852,47
+67,HPV Quadrivalente,Rinovírus,Poliomielite,2441,29
+757,Influenza,Vírus da Hepatite B,Pneumonia,3709,42
+29,Tríplice Viral,Rinovírus,Sarampo,8016,23
+719,AstraZeneca,Rinovírus,Varicela,6650,2
+472,HPV Quadrivalente,Rotavírus,Tétano,2328,49
+746,Tríplice Viral,Clostridium tetani,Tétano,3352,32
+368,Rotavírus,Papilomavírus Humano,Rubéola,4385,24
+520,CoronaVac,Mycobacterium tuberculosis,Tétano,4226,49
+479,Rotavírus,Neisseria meningitidis,Tétano,7043,7
+437,Tríplice Viral,Vírus da Hepatite B,Poliomielite,1448,34
+282,DTP,Vírus da Hepatite B,Hepatite B,403,29
+662,DTP,Clostridium tetani,Rubéola,7145,11
+799,Febre Amarela,Vírus da Hepatite B,Poliomielite,2115,12
+987,AstraZeneca,Neisseria meningitidis,Rubéola,7884,28
+190,Butanvac,Rinovírus,Poliomielite,7122,3
+359,Tríplice Viral,Neisseria meningitidis,COVID-19,2010,16
+778,Meningocócica C,SARS-CoV-2,Influenza,7424,50
+642,BCG,SARS-CoV-2,Rotavirose,467,14
+677,Pneumocócica 10,Streptococcus pneumoniae,Rubéola,54,6
+775,AstraZeneca,Poliovírus,Caxumba,4527,32
+2,Butanvac,SARS-CoV-2,Meningite C,6097,41
+919,HPV Quadrivalente,Sarampo,Poliomielite,4106,6
+950,Tríplice Viral,Papilomavírus Humano,Febre Amarela,6516,34
+263,Hepatite B,Rotavírus,Meningite C,400,7
+730,Tríplice Viral,Vírus da Hepatite B,HPV,8420,42
+698,Poliomielite,Rotavírus,Tétano,9936,35
+918,Rotavírus,Rinovírus,Influenza,3869,7
+742,Influenza,SARS-CoV-2,Meningite C,8429,21
+275,Tríplice Viral,Clostridium tetani,HPV,3070,16
+85,DTP,Vírus da Febre Amarela,HPV,243,39
+534,Influenza,Clostridium tetani,Rotavirose,6070,8
+768,CoronaVac,Rotavírus,Tétano,1059,42
+130,BCG,Neisseria meningitidis,HPV,3266,40
+262,AstraZeneca,Mycobacterium tuberculosis,Pneumonia,1977,4
+842,Poliomielite,Sarampo,Sarampo,2229,35
+320,AstraZeneca,SARS-CoV-2,Tétano,4591,22
+816,Hepatite B,Vírus da Febre Amarela,Tuberculose,6115,25
+855,BCG,Neisseria meningitidis,Febre Amarela,8160,30
+738,DTP,Vírus da Hepatite B,HPV,1912,15
+688,AstraZeneca,Sarampo,Meningite C,6105,26
+55,Hepatite B,Clostridium tetani,Caxumba,4973,40
+252,Pfizer-BioNTech,Rotavírus,HPV,4183,46
+926,Hepatite B,Sarampo,Rotavirose,1085,40
+692,Tríplice Viral,Vírus da Febre Amarela,Rotavirose,8534,22
+836,Meningocócica C,Mycobacterium tuberculosis,Pneumonia,5676,11
+340,Varicela,Mycobacterium tuberculosis,Caxumba,1954,31
+18,Rotavírus,Poliovírus,COVID-19,9892,31
+272,Varicela,Neisseria meningitidis,Febre Amarela,1137,32
+563,CoronaVac,Mycobacterium tuberculosis,HPV,8945,16
+913,AstraZeneca,Streptococcus pneumoniae,Poliomielite,2299,36
+159,Hepatite B,Rotavírus,Tuberculose,9452,18
+298,HPV Quadrivalente,Vírus da Febre Amarela,Tuberculose,9788,22
+112,Meningocócica C,Streptococcus pneumoniae,Tuberculose,7693,15
+649,BCG,Rotavírus,Febre Amarela,7797,19
+650,BCG,Sarampo,Sarampo,3509,41
+681,AstraZeneca,Poliovírus,Poliomielite,3233,47
+516,HPV Quadrivalente,Clostridium tetani,Influenza,4093,34
+260,Pfizer-BioNTech,Poliovírus,HPV,7724,16
+594,Tríplice Viral,Vírus da Febre Amarela,COVID-19,811,9
+444,AstraZeneca,Rotavírus,Hepatite B,8040,29
+176,AstraZeneca,Vírus da Hepatite B,Febre Amarela,5023,41
+376,HPV Quadrivalente,Influenza A/B,Tétano,1300,18
+325,Febre Amarela,Vírus da Hepatite B,Meningite C,5481,28
+568,Febre Amarela,Papilomavírus Humano,Varicela,9739,50
+888,Rotavírus,Poliovírus,Caxumba,169,37
+443,Influenza,SARS-CoV-2,Sarampo,7107,39
+313,Tríplice Viral,Rinovírus,Sarampo,1828,44
+672,Influenza,Poliovírus,Pneumonia,806,16
+893,Febre Amarela,Mycobacterium tuberculosis,HPV,3672,26
+251,Poliomielite,Vírus da Febre Amarela,Tétano,7597,47
+296,Rotavírus,Neisseria meningitidis,Tétano,5751,37
+739,Meningocócica C,Clostridium tetani,Meningite C,4428,33
+48,HPV Quadrivalente,Poliovírus,Febre Amarela,192,29
+934,Meningocócica C,Streptococcus pneumoniae,Poliomielite,2605,6
+525,Tríplice Viral,Clostridium tetani,Influenza,3323,40
+81,Rotavírus,Clostridium tetani,Influenza,7453,28
+334,AstraZeneca,Streptococcus pneumoniae,Hepatite B,4340,24
+762,BCG,Vírus da Hepatite B,Tétano,3495,4
+381,Rotavírus,Vírus da Febre Amarela,Caxumba,4690,26
+475,Janssen,Rotavírus,Hepatite B,5278,28
+22,Hepatite B,Rinovírus,Tuberculose,2257,42
+717,Pfizer-BioNTech,Influenza A/B,COVID-19,3268,37
+80,Butanvac,Papilomavírus Humano,Tétano,5078,27
+116,HPV Quadrivalente,Neisseria meningitidis,HPV,1203,4
+255,Pneumocócica 10,Influenza A/B,Tétano,8711,12
+245,Rotavírus,Vírus da Febre Amarela,Hepatite B,9599,28
+192,Poliomielite,Rinovírus,COVID-19,6248,17
+821,Pfizer-BioNTech,Sarampo,Influenza,5471,22
+708,Poliomielite,Vírus da Hepatite B,HPV,5367,3
+134,Febre Amarela,Mycobacterium tuberculosis,Tétano,2183,35
+645,Butanvac,Mycobacterium tuberculosis,HPV,4539,33
+290,Influenza,Mycobacterium tuberculosis,Tétano,9085,12
+308,DTP,Clostridium tetani,Influenza,8838,31
+929,Pneumocócica 10,Neisseria meningitidis,Poliomielite,8048,37
+629,Tríplice Viral,Clostridium tetani,COVID-19,8477,47
+945,Influenza,Papilomavírus Humano,Hepatite B,8144,45
+691,Pneumocócica 10,Rotavírus,Meningite C,1060,49
+515,Hepatite B,Streptococcus pneumoniae,Rubéola,6904,45
+168,Pneumocócica 10,Influenza A/B,Febre Amarela,7816,22
+682,Pneumocócica 10,Vírus da Hepatite B,Sarampo,3435,1
+393,Varicela,Vírus da Hepatite B,Varicela,3427,46
+865,Hepatite B,Mycobacterium tuberculosis,Meningite C,1001,38
+858,Pneumocócica 10,Vírus da Febre Amarela,Meningite C,3252,28
+814,BCG,Clostridium tetani,Influenza,3279,47
+386,Meningocócica C,Vírus da Hepatite B,Rubéola,5229,28
+4,Febre Amarela,Mycobacterium tuberculosis,Pneumonia,1867,16
+874,Pfizer-BioNTech,Mycobacterium tuberculosis,Rotavirose,4065,27
+312,Butanvac,Poliovírus,Tuberculose,7432,13
+578,Varicela,Poliovírus,Pneumonia,3058,48
+914,Rotavírus,Mycobacterium tuberculosis,Tuberculose,8300,17
+490,Tríplice Viral,SARS-CoV-2,Poliomielite,1792,41
+149,Influenza,Rotavírus,Hepatite B,44,15
+322,Varicela,Sarampo,COVID-19,7009,49
+786,Febre Amarela,Mycobacterium tuberculosis,HPV,7926,50
+713,Tríplice Viral,Neisseria meningitidis,Tétano,3583,26
+635,DTP,Vírus da Febre Amarela,Pneumonia,3363,22
+51,Febre Amarela,SARS-CoV-2,COVID-19,5872,48
+21,Butanvac,Rinovírus,Poliomielite,1921,8
+614,Pneumocócica 10,Papilomavírus Humano,Varicela,9962,17
+940,HPV Quadrivalente,Neisseria meningitidis,HPV,4225,21
+740,Rotavírus,Clostridium tetani,Tuberculose,7011,22
+42,CoronaVac,Influenza A/B,Influenza,7939,14
+154,Hepatite B,Papilomavírus Humano,COVID-19,5187,22
+257,Influenza,Vírus da Febre Amarela,Rubéola,4039,26
+99,Hepatite B,SARS-CoV-2,Influenza,7264,49
+405,Meningocócica C,Influenza A/B,Sarampo,3507,44
+16,BCG,Clostridium tetani,Tuberculose,5627,41
+758,Butanvac,Neisseria meningitidis,Tétano,9224,19
+481,Pneumocócica 10,Streptococcus pneumoniae,Tuberculose,6842,49
+700,Varicela,Rotavírus,Meningite C,4791,22
+695,Meningocócica C,Streptococcus pneumoniae,Rubéola,7351,17
+927,Febre Amarela,Rinovírus,Rotavirose,2969,45
+589,Butanvac,Streptococcus pneumoniae,Varicela,2084,47
+536,DTP,Vírus da Hepatite B,Tétano,9228,29
+964,Influenza,Papilomavírus Humano,Influenza,2889,31
+734,Varicela,Vírus da Febre Amarela,Caxumba,986,45
+218,Janssen,Influenza A/B,Sarampo,5463,48
+973,DTP,Mycobacterium tuberculosis,Febre Amarela,6142,40
+467,Butanvac,Streptococcus pneumoniae,HPV,8118,11
+683,Meningocócica C,Influenza A/B,Poliomielite,7263,43
+764,Janssen,Rotavírus,Febre Amarela,4690,24
+141,HPV Quadrivalente,Clostridium tetani,Sarampo,928,30
+686,Varicela,Influenza A/B,Varicela,7250,29
