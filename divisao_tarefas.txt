@@ -1,15 +1,19 @@
 # Carlos Daniel
-1. Organização da estrutura do projeto
-    - Divisão em módulos com base em padrões modernos de construção de API's Python
-2. Versionamento com git e GitHub
-3. Desenvolvimento dos endpoints e de suas respectivas funções internas
-
+1. Definição da estrutura padrão do projeto
+2. Configuração do ambiente com uv
+3. Desenvolvimento das features de repositories/vax_repo.py
+    - Operações para CRUD internas, incluindo vacuum(preview e dry)
+4. Definição das rotas e endpoints em routers/vax_router.py
+ 
 # Milena
-1. 
-    -
-    -
+1. Funções de Hash e seu router
+2. Implementação do Logger 
+3. Testes com pytest
+4. Documentação no README
 
 # Yasmin
-1.
-    -
-    -
+1. Escolha da entidade e seus atributos
+    - Incluindo desenvolvimento do schema em schemas/vax.py
+2. Desenvolvimento do GenID para o .seq
+3. Detalhes de otimização finais
+4. Geração de dados fictícios e aceitáveis com o Faker
