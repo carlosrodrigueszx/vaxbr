@@ -225,8 +225,8 @@ Exemplo de saída:
 | [Pydantic](https://docs.pydantic.dev/) | Validação de dados |
 | [deltalake](https://delta-io.github.io/delta-rs/) | Persistência em Delta Lake |
 | [Faker](https://faker.readthedocs.io/) | Geração de dados realistas |
-| Python `logging` | Registro centralizado de eventos |
-| Python 3.12+ | Linguagem base |
+| [Python `logging`](https://docs.python.org/3/library/logging.html) | Registro centralizado de eventos |
+| [Python 3.12+](https://docs.python.org/pt-br/3.12/index.html) | Linguagem base |
 
 ---
 
